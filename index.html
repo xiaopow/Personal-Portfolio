@@ -22,187 +22,193 @@
     <!-- Custom CSS -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-
 </head>
 
 <body>
+  <!-- navbar -->
 
-<!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <a class="navbar-brand text-light" href="#">Yoseph Berhane</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#demo-navbar" aria-controls="demo-navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top ">
+  	  <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	    <span class="navbar-toggler-icon"></span>
+  	  </button>
 
-    <div class="collapse navbar-collapse" id="demo-navbar">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-light" data-value="about" href="#">About</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-light" data-value="about" href="#">Portfolio</a>
-          <div class="portfolio" id="portfolio"></div>
-        </li>
+  	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  	     <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item">
-          <a class="nav-link disabled text-warning" href="#">Blog</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="contact">Contact</button>
-
-      </form>
-    </div>
+  	      <li class="nav-item">
+  	        <a class="nav-link" data-value="about" href="#">About</a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link " data-value="team" href="#">
+  	        Skills</a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link " data-value="contact" href="#">Contact</a>
+  	      </li>
+  	    </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fab fa-blogger"></i>
+                </a>
+              </li>
+            </ul>
+  	  </div>
   </nav>
-<!-- //Nav -->
 
-<br>
-
-<!-- News jumbotron -->
-<div class="container">
-<div class="jumbotron text-center hoverable p-4">
-
-  <div class="row">
-    <div class="col-md-4 offset-md-1 mx-3 my-3">
-      <div class="view overlay">
-        <img src="assets/images/project-featured.jpg" class="img-fluid" alt="featured">
-        <a>
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-
-    </div>
-    <div class="col-md-7 text-md-left ml-3 mt-3">
-      <a href="#!" class="green-text">
-          <div class="about" id="about"></div>
-        <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i>About</h6>
-      </a>
-      <h4 class="h4 mb-4">What I do</h4>
-      <p class="font-weight-normal">
-        I have studied development communication at Malmo University and now I have successfully transferred my passion for communication to web development.
-        Below is a quick overview of my main technical skill sets and technologies I use.
-        Want to find out more about my experience? Check out my online project portfolio.
-      </p>
-      <a class="btn btn-success">Read more</a>
-    </div>
-  </div>
-</div>
-
-<br>
-
-<div class="jumbotron text-center hoverable p-4">
-
-  <div class="row">
-
-    <div class="col-md-4 offset-md-1 mx-3 my-3">
-
-      <div class="view overlay">
-        <img src="assets/images/project-5.jpg" class="img-fluid">
-        <a>
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-
-    </div>
-
-    <div class="col-md-7 text-md-left ml-3 mt-3">
-
-      <a href="#!" class="green-text">
-        <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i>Portfolio</h6>
-      </a>
-
-      <h4 class="h4 mb-4">Latest Projects</h4>
-
-      <p class="font-weight-normal">Welcome to my online portfolio.
-        I'm studying full-stack web development at the moment.
-        Want some help building your website?
-        You're welcome to contact me.
-      </p>
-      <a class="btn btn-success">Read more</a>
-    </div>
-  </div>
-</div>
-<!-- //News jumbotron -->
-
-<br>
-
-<div class="card-group">
-  <div class="card text-dark bg-light">
-  <img class="card-img-top" src="assets/images/project-8.png" alt="image alt text here">
-    <div class="card-body ">
-      <h5 class="card-title">Beyond the Headlines</h5>
-      <p class="card-text text-left">A personal blog about current events and issues that are happening in Ethiopia.</p>
-    </div>
-      <div class="card-footer bg-success text-right text-danger">
-    <a href="https://yosephbet.blogspot.com/" class="btn btn-outline-light btn-sm">More info</a>
-    </div>
-  </div>
-  <div class="card text-dark bg-light">
-  <img class="card-img-top" src="assets/images/project-1.png" alt="image alt text here">
-    <div class="card-body ">
-      <h5 class="card-title">Dungo Energy Solutions</h5>
-      <p class="card-text text-left">A website that features the works of Dungo Energy Solutions, a solar social enterprise based in Addis Ababa, Ethiopia.</p>
-    </div>
-    <div class="card-footer bg-success text-right text-danger">
-    <a href="http://www.envent.yolasite.com/" class="btn btn-outline-light btn-sm">More info</a>
-    </div>
-  </div>
-    <div class="card text-dark bg-light">
-    <img class="card-img-top" src="assets/images/project-3.png" alt="image alt text here">
-      <div class="card-body ">
-        <h5 class="card-title">Power Talk</h5>
-        <p class="card-text text-left"> A group blog for the New Media, ICT & Development course organized by Malmö University, School of Arts and Communication. </p>
-      </div>
-        <div class="card-footer bg-success text-right text-danger">
-       <a href="http://wpmu.mah.se/nmict162group6/about-us/" class="btn btn-outline-light btn-sm">More info</a>
-      </div>
-  </div>
-</div>
-</div>
-</div>
-
-<!-- Contact form -->
-<div class="contact" id="contact"></div>
-<div class="contact-form">
- <div class="container">
-  <form>
-   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-      <h4>Get in Touch</h4>
-      <ul class="social list-inline">
-          <li class="list-inline-item"><a href="https://twitter.com/aizanamida"><i class="fab fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="https://www.linkedin.com/in/yosephberhane/"><i class="fab fa-linkedin-in"></i></a></li>
-          <li class="list-inline-item"><a href="https://github.com/isakbet"><i class="fab fa-github-alt"></i></a></li>
-        </ul>
-    </div>
-    
-    <div class="col-lg-8 col-md-8 col-sm-12 right">
-       <div class="form-group">
-         <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
-       </div>
-       <div class="form-group">
-         <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
-       </div>
-       <div class="form-group">
-         <textarea class="form-control form-control-lg">
-
-         </textarea>
-       </div>
-       <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+  <!-- header -->
+  <header class="header">
+    <div class="overlay"></div>
+     <div class="container">
+       <div class="description">
+         <h1>Hello! Welcome to my portfolio webpage!
+           <p>
+             My name is Yoseph. I'm currently studying full-stack web development at <a href="https://www.altcademy.com/">Altcademy</a>.
+             Want some help building your website? You're welcome to <a href="file:///C:/Users/Administrator/Personal-Portfolio/index.html?email=#">contact</a> me.
+           </p>
+          <button class="btn btn-outline-secondary btn-lg">See more</button>
+        </h1>
     </div>
    </div>
-  </form>
- </div>
-</div>
-<!-- //Contact form -->
+ </header>
 
-<!-- ******FOOTER****** -->
+  <!-- about section -->
+  <div class="about" id="about">
+  	<div class="container">
+  	  <h1>About Me</h1>
+  		<div class="row">
+  			<div class="col-lg-4 col-md-4 col-sm-12">
+  				<img src="assets/images/profile.jpg" class="img-fluid">
+  				<span class="text-justify">Junior Web Developer</span>
+  			</div>
+  			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+  				<h3>Yoseph Berhane</h3>
+  				<p>
+  				   I have studied development communication at Malmö University and now
+            I have successfully transferred my passion for communication to programming.
+            Right now my main professional goal is to find a job that will give me an opportunity to deepen and improve my programming skills.
+            Below is a quick overview of my main technical skill sets and technologies I use.
+            Want to find out more about my experience? Check out my online project portfolio.
+  				</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <!-- portfolio -->
+  <div class="portfolio" id="portfolio">
+       <h1 class="text-center">Portfolio</h1>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-4 col-md-4 col-sm-12">
+  				<img src="assets/images/project-2.png" class="img-fluid">
+  			</div>
+  			<div class="col-lg-4 col-md-4 col-sm-12">
+  				<img src="assets/images/project-1.png" class="img-fluid">
+  			</div>
+  			<div class="col-lg-4 col-md-4 col-sm-12">
+  				<img src="assets/images/project-3.png" class="img-fluid">
+  			</div>
+
+  		</div>
+  	</div>
+  </div>
+
+  <!-- Skills section -->
+  <div class="skills" id="team">
+  	<div class="container">
+  	   <h1 class="text-center">Skills</h1>
+  		<div class="row">
+  			<div class="col-lg-3 col-md-3 col-sm-12 item">
+  				<img src="assets/images/html-5.svg" class="img-fluid" alt="team">
+  				<div class="des">
+  				 	56%
+  				 </div>
+  			</div>
+  			<div class="col-lg-3 col-md-3 col-sm-12 item">
+  				<img src="assets/images/css-5.svg" class="img-fluid" alt="team">
+  				<div class="des">
+  				 	 58%
+  				 </div>
+  			</div>
+  			<div class="col-lg-3 col-md-3 col-sm-12 item">
+  				<img src="assets/images/javascript-4.svg" class="img-fluid" alt="team">
+  				<div class="des">
+  				 	36%
+  				 </div>
+  			</div>
+  			<div class="col-lg-3 col-md-3 col-sm-12 item">
+  				<img src="assets/images/bootstrap-4.svg" class="img-fluid" alt="team">
+  				 <div class="des">
+  				 	60%
+  				 </div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <!-- Contact form -->
+  <div class="contact-form" id="contact">
+  	<div class="container">
+  		<form>
+  			<div class="row">
+  				<div class="col-lg-4 col-md-4 col-sm-12">
+  				  <h1>Get in Touch</h1>
+  				</div>
+  				<div class="col-lg-8 col-md-8 col-sm-12 right">
+  				   <div class="form-group">
+  				   	 <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+  				   </div>
+  				   <div class="form-group">
+  				   	 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+  				   </div>
+  				   <div class="form-group">
+  				   	 <textarea class="form-control form-control-lg">
+
+  				   	 </textarea>
+  				   </div>
+  				   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+  				</div>
+  			</div>
+  		</form>
+  	</div>
+  </div>
+
+<!-- footer -->
+<div class="container">
+
     <footer class="footer">
         <div class="container text-center">
-        <small class="copyright">Designed by <a href="#" target="_blank">Yoseph Berhane</small>
+        <small class="copyright">Copyright © 2019 Jobet Licence | Design & Developed by <a href="#" target="_blank">Yoseph Berhane</small>
+
         </div>
-      </footer>
+    </footer>
+  </div>
+</div>
     <!--//footer-->
+
+
+
 
 
              <!-- Latest compiled and minified CSS -->
@@ -217,8 +223,8 @@
              <!-- Latest compiled JavaScript -->
              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-      <!-- Custom script -->
-      <script type="text/javascript" src="assets/js/main.js"></script>
+             <!-- Custom JavaScript -->
+             <script type="text/javascript" src='assets/js/main.js'></script>
 
 </body>
 </html>
