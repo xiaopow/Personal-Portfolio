@@ -1,4 +1,3 @@
-# my-portfolio
 ## General info
 This project is my personal portfolio web page.
 ## Technologies
