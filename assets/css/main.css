@@ -1,0 +1,35 @@
+.navbar {
+background: #5f2c82;
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+background: linear-gradient(to right, #49a09d, #5f2c82);
+}
+
+.navbar-collapse {
+ justify-content: flex-end;
+}
+
+
+.contact-form {
+ margin: 6em 0;
+ position: relative;
+}
+
+.contact-form  {
+ padding:2em 1px;
+ color: #ff9f00;
+}
+
+.contact-form .right {
+ max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+ background:  #ffc100;
+ color: #fff;
+ border:0;
+}
+
+.contact-form .right .form-control::placeholder {
+ color: #888;
+ font-size: 16px;
+}
